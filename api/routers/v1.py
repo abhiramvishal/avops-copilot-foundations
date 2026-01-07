@@ -13,3 +13,7 @@ router.include_router(predict_router)
 router.include_router(device_router)
 router.include_router(auth_router)
 router.include_router(copilot_router)
+
+@router.get("/health")
+def health_v1():
+    return {"status": "ok"}
