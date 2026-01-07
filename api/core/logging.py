@@ -15,3 +15,6 @@ def setup_logging(debug: bool) -> None:
     logging.getLogger("uvicorn").setLevel(level)
     logging.getLogger("uvicorn.error").setLevel(level)
     logging.getLogger("uvicorn.access").setLevel(level)
+
+    logging.getLogger("python_multipart").setLevel(logging.INFO)
+    logging.getLogger("python_multipart.multipart").setLevel(logging.INFO)

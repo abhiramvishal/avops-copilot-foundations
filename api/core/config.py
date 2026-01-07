@@ -6,6 +6,10 @@ class Settings(BaseSettings):
     app_name: str = "AVOps Copilot – Internal AI Tooling (Foundations)"
     env: str = "dev"  # dev | prod | test
     debug: bool = True
+    
+    jwt_secret: str = "change_me"
+    jwt_algorithm: str = "HS256"
+    access_token_expire_minutes: int = 120
 
     cors_origins: List[str] = ["http://localhost:3000"]
 
