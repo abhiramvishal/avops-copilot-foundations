@@ -6,7 +6,6 @@ from sqlalchemy.orm import Mapped, mapped_column
 from api.db.base import Base
 from sqlalchemy import JSON, ForeignKey
 from sqlalchemy import Column
-from sqlalchemy.sql import func
 
 class TelemetryEvent(Base):
     __tablename__ = "telemetry_events"
