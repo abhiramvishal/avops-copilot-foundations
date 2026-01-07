@@ -12,5 +12,4 @@ router.include_router(telemetry_router)
 router.include_router(predict_router)
 router.include_router(device_router)
 router.include_router(auth_router)
-
 router.include_router(copilot_router)
