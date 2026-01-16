@@ -82,11 +82,7 @@ All routes are defined and documented via OpenAPI and exposed under a versioned 
 - `POST /api/v1/copilot/run`
 - `GET  /api/v1/copilot/runs`
 - `GET  /api/v1/copilot/runs/{run_id}`
-
 ---
-
-## Running locally
-
 ### Prerequisites
 - Python 3.10+
 - Node.js 18+
